@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/onBoarding"
+        android:name="uz.beko404.onboardingsample.ui.OnBoarding"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding">
+        <action
+            android:id="@+id/action_onBoarding_to_home2"
+            app:destination="@id/home2"
+            app:popUpTo="@id/onBoarding"
+            app:enterAnim="@anim/enter_from_right"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="uz.beko404.onboardingsample.ui.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="uz.beko404.onboardingsample.ui.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_onBoarding"
+            app:destination="@id/onBoarding"
+            app:popUpTo="@id/splashFragment"
+            app:enterAnim="@anim/enter_from_right"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

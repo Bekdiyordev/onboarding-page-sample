@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mega Tezkor</string>
+    <string name="skip">O\'tkazish</string>
+    <string name="start">Boshlash</string>
+    <string name="next">Keyingi</string>
+    <string name="title_1">Sifatli</string>
+    <string name="title_2">Qulay</string>
+    <string name="title_3">Tez</string>
+    <string name="description_1">Biz sizning buyurtmalaringizni sifatli tarzda yetkazib beramiz.</string>
+    <string name="description_2">O’zingizga qulay bo\'lgan yetkazib berish turini tanlang.</string>
+    <string name="description_3">Buyurtmalaringizni har qanday holatda ham tez yetkazamiz.</string>
+</resources>
