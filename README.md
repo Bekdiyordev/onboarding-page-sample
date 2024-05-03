@@ -1,4 +1,4 @@
-##OnBoarding Page Sample
+# OnBoarding Page Sample
 
 This app shows how to create a simple onBoarding page with ViewPager and Dots-Indicator
 
