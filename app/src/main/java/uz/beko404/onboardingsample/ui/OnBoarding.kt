@@ -67,6 +67,7 @@ class OnBoarding : Fragment(R.layout.fragment_on_boarding) {
         }
     }
 
+
     private fun setPagerListContent() {
         pagerItems.add(
             OnBoardingModel(
