@@ -34,4 +34,5 @@
             app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
 </navigation>
