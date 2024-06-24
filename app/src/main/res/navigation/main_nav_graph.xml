@@ -13,8 +13,8 @@
         <action
             android:id="@+id/action_onBoarding_to_home2"
             app:destination="@id/home2"
-            app:popUpTo="@id/onBoarding"
             app:enterAnim="@anim/enter_from_right"
+            app:popUpTo="@id/onBoarding"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
@@ -30,8 +30,8 @@
         <action
             android:id="@+id/action_splashFragment_to_onBoarding"
             app:destination="@id/onBoarding"
-            app:popUpTo="@id/splashFragment"
             app:enterAnim="@anim/enter_from_right"
+            app:popUpTo="@id/splashFragment"
             app:popUpToInclusive="true" />
     </fragment>
 </navigation>
