@@ -33,12 +33,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
     viewBinding.isEnabled = true
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -50,5 +48,4 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.dots.indicator)
-
 }
