@@ -1,6 +1,5 @@
 <resources>
     <style name="Base.Theme.OnBoardingSample" parent="Theme.Material3.DayNight.NoActionBar" />
-
     <style name="Theme.RemoveSplashScreenTheme" parent="@style/Base.Theme.OnBoardingSample">
         <item name="android:windowIsTranslucent">true</item>
     </style>
